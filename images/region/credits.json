@@ -1,0 +1,74 @@
+{
+ "beauvoir": {
+  "titre": "File:BDM38.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BDM38.jpg",
+  "auteur": "Nicolasdu38",
+  "licence": "CC BY-SA 3.0"
+ },
+ "campagne": {
+  "titre": "File:Saint-Didier Paysage.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Saint-Didier_Paysage.jpg",
+  "auteur": "Hélène Rival",
+  "licence": "CC BY-SA 4.0"
+ },
+ "theatre": {
+  "titre": "File:Théâtre Antique de Vienne 14.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Antique_de_Vienne_14.jpg",
+  "auteur": "Jsamwrites",
+  "licence": "CC BY-SA 4.0"
+ },
+ "temple": {
+  "titre": "File:Temple of Augustus and Livia in Vienne (3).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Temple_of_Augustus_and_Livia_in_Vienne_(3).jpg",
+  "auteur": "Tournasol7",
+  "licence": "CC BY-SA 4.0"
+ },
+ "lyon": {
+  "titre": "File:Lyon, an der Saône, Cathédrale Saint-Jean-Baptiste (12.), hinten Notre-Dame de Fourvière (19.) (41976211044).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lyon,_an_der_Sa%C3%B4ne,_Cath%C3%A9drale_Saint-Jean-Baptiste_(12.),_hinten_Notre-Dame_de_Fourvi%C3%A8re_(19.)_(41976211044).jpg",
+  "auteur": "Herbert Frank from Wien (Vienna), AT",
+  "licence": "CC BY 2.0"
+ },
+ "perouges": {
+  "titre": "File:Rue de la Halle à Pérouges en avril 2021.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rue_de_la_Halle_%C3%A0_P%C3%A9rouges_en_avril_2021.jpg",
+  "auteur": "Benoît Prieur",
+  "licence": "CC0"
+ },
+ "cremieu": {
+  "titre": "File:Crémieu (Août 2025) - Halle.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cr%C3%A9mieu_(Ao%C3%BBt_2025)_-_Halle.jpg",
+  "auteur": "Mathieu BROSSAIS",
+  "licence": "CC BY 4.0"
+ },
+ "paladru": {
+  "titre": "File:Lac de Paladru 02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lac_de_Paladru_02.jpg",
+  "auteur": "John Samuel",
+  "licence": "CC BY-SA 4.0"
+ },
+ "cheval": {
+  "titre": "File:Palais idéal du facteur Cheval - Juin 2023 - 15.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Palais_id%C3%A9al_du_facteur_Cheval_-_Juin_2023_-_15.jpg",
+  "auteur": "Flibust1er",
+  "licence": "CC BY 4.0"
+ },
+ "cote-rotie": {
+  "titre": "File:Parcelles du vignoble à Ampuis.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Parcelles_du_vignoble_%C3%A0_Ampuis.jpg",
+  "auteur": "Daniel CULSAN",
+  "licence": "CC BY-SA 3.0"
+ },
+ "septeme": {
+  "titre": "File:Château de Septème (Isère).JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Sept%C3%A8me_(Is%C3%A8re).JPG",
+  "auteur": "Daniel CULSAN",
+  "licence": "CC BY-SA 4.0"
+ },
+ "bournay": {
+  "titre": "File:Centre-ville et Hôtel de ville de Saint-Jean-de-Bournay.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Centre-ville_et_H%C3%B4tel_de_ville_de_Saint-Jean-de-Bournay.jpg",
+  "auteur": "Jean-Paul Corlin",
+  "licence": "CC BY-SA 4.0"
+ }
+}
