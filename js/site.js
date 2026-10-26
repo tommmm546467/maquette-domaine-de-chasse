@@ -67,3 +67,36 @@
     f.addEventListener('submit',function(e){e.preventDefault();f.classList.add('envoye');f.querySelector('.merci').scrollIntoView({block:'nearest',behavior:'smooth'});});
   });
 })();
+
+/* V2 : fenêtres de détail (cartes cliquables, comme les fiches de T'Nature) et menu à ancres */
+(function(){
+  document.querySelectorAll('[data-modale]').forEach(function(b){
+    b.addEventListener('click',function(){
+      var d=document.getElementById(b.getAttribute('data-modale'));
+      if(!d||!d.showModal)return;
+      d.querySelectorAll('img[loading=lazy]').forEach(function(i){i.loading='eager';});
+      d.showModal();document.body.classList.add('modale-ouverte');
+    });
+  });
+  document.querySelectorAll('dialog.modale').forEach(function(d){
+    var fermer=function(){if(d.open)d.close();};
+    d.querySelector('.modale-fermer').addEventListener('click',fermer);
+    d.addEventListener('click',function(e){if(e.target===d)fermer();});
+    d.addEventListener('close',function(){document.body.classList.remove('modale-ouverte');});
+    // un bouton Réserver dans la fiche ferme la fiche avant d'ouvrir le panneau
+    d.querySelectorAll('[data-obt-reserve]').forEach(function(a){a.addEventListener('click',fermer);});
+  });
+  // menu mobile : un lien d'ancre referme le menu
+  var entete=document.querySelector('.entete'),burger=document.querySelector('.burger');
+  document.querySelectorAll('.menu a[href*="#"]').forEach(function(a){
+    a.addEventListener('click',function(){
+      if(entete&&entete.classList.contains('menu-ouvert')){entete.classList.remove('menu-ouvert');burger.setAttribute('aria-expanded','false');document.documentElement.style.overflow='';}
+    });
+  });
+  // lien actif selon la section affichée
+  var liens=[].slice.call(document.querySelectorAll('.menu a[href^="#"]'));
+  if('IntersectionObserver' in window&&liens.length){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){liens.forEach(function(l){l.classList.toggle('actif',l.getAttribute('href')==='#'+e.target.id);});}});},{rootMargin:'-45% 0px -50% 0px'});
+    liens.forEach(function(l){var s=document.querySelector(l.getAttribute('href'));if(s)io.observe(s);});
+  }
+})();
