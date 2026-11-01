@@ -571,3 +571,18 @@ dialog.modale::backdrop{background:rgba(14,22,16,.72);backdrop-filter:blur(3px)}
 body.modale-ouverte{overflow:hidden}
 @media (max-width:900px){.modale-boite{grid-template-columns:1fr}.modale-photos{min-height:280px}.modale-photos.n1 img{min-height:280px}.menu{gap:4px}}
 @media (max-width:600px){.duo-texte .pieces{grid-template-columns:1fr 1fr}}
+
+/* ===== 31/10/2026 : menu sur une pastille ocre arrondie (souhait de la cliente), rappels ocre à côté du vert ===== */
+:root{--ocre:#a8662b;--ocre-fonce:#8f5523;--soleil:#b8772f}
+.entete .menu{background:var(--ocre);color:#fff;border-radius:999px;padding:4px 26px;gap:22px;box-shadow:0 10px 26px -14px rgba(60,30,8,.7)}
+.entete .menu a{color:#fff}
+.entete .menu a::after{background:#fff}
+.chiffres{border-top-color:var(--ocre)}
+.pied{border-top:4px solid var(--ocre)}
+.pied h4{color:var(--ocre-fonce)}
+@media (max-width:1100px){.entete .menu{padding:4px 18px;gap:14px}}
+@media (max-width:900px){
+  .entete.menu-ouvert .menu{border-radius:0;background:var(--fond);padding:24px;box-shadow:none;border-top:4px solid var(--ocre);gap:4px}
+  .entete.menu-ouvert .menu a{color:var(--encre)}
+  .barre-mobile a:not(.appeler){color:var(--ocre-fonce)}
+}
